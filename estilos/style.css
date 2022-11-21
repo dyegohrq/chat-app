@@ -32,7 +32,7 @@ main {
 }
 
 .cell {
-    background-color: white;
+    background-color: yellow;
     height: 550px;
     border-radius: 30px;
     padding: 10px;
@@ -45,6 +45,10 @@ header {
     border-radius: 30px 30px 5px 5px ;
 }
 
+div {
+    display: block;
+}
+
 .top-cell {
     display: flex;
     align-items: center;
@@ -54,6 +58,34 @@ header {
     margin: -25px auto auto auto;
     border-radius: 0px 0px 160px 160px ;
     background-color: white;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flex-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.profile-photo > img{
+    width: 35px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.profile {
+    font-size: .5em;
+    margin-left: 10px;
+}
+
+.burger > img {
+    align-content: flex-end;
 }
 
 .text {
