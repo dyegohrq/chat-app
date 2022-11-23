@@ -46,10 +46,6 @@ header {
     z-index: 1;
 }
 
-div {
-    display: block;
-}
-
 .top-cell {
     display: flex;
     align-items: center;
@@ -63,15 +59,11 @@ div {
 
 .profile-info {
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;   
+    align-items: center;  
 }
 
 .flex-header {
-    display: inline-flex;
-    align-items: center;
-    justify-content: left;
+    display: flex;
 }
 
 .profile-photo > img{
